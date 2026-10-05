@@ -1,0 +1,109 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Professional Hybrid Server - EssentialsX optimized config (partial key settings)
+# Full config will be generated/updated by the plugin on first run.
+# These values are pre-set for production use.
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 EssentialsX (Spawn)                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Spawn on join / respawn
+spawn-on-join: true
+spawn-on-join-exempt: false
+
+# New players go to this world spawn (Multiverse handles multi-world)
+newbies:
+  announce-format: '&dWelcome {DISPLAYNAME} to the Professional Hybrid Server!'
+  spawnpoint: newbies
+  kit: tools
+
+# /spawn and /setspawn
+respawn-at-home: false
+respawn-at-anchor: false
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Chat & Format                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+chat:
+  format: '&7[{WORLD}] &f{DISPLAYNAME}&7: &f{MESSAGE}'
+  radius: 0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Economy                          | #
+# +------------------------------------------------------+ #
+############################################################
+
+starting-balance: 1000.0
+max-money: 1000000000.0
+min-money: 0.0
+
+# Currency symbol
+currency-symbol: '$'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Other Settings                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Disable some features that conflict with lobby protection
+teleport-safety: true
+teleport-invulnerability: 5
+
+# Kits example
+kits:
+  tools:
+    delay: 10
+    items:
+      - stone_pickaxe 1
+      - stone_axe 1
+      - stone_shovel 1
+      - bread 16
+
+# Command costs (example)
+command-costs:
+  home: 0
+  sethome: 100
+  tpa: 50
+
+# AFK settings
+afk:
+  auto-afk: 300
+  auto-afk-kick: -1
+  freeze-afk-players: false
+
+# Protect against some grief vectors
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    creeper-explosion: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: true
+    villager-death: false
+    bed-explosion: true
+    wither-spawnexplosion: true
+    wither-blockreplace: true
+    enderpearl: false
+    portal-access: true
+
+# Version (do not change)
+config-version: 1.0
