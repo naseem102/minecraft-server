@@ -1,0 +1,29 @@
+# Floodgate Configuration
+# Auto-links Java and Bedrock player profiles
+
+# The prefix for Floodgate player usernames (Bedrock players will appear as .Username)
+username-prefix: "."
+
+# Replace spaces in Bedrock usernames with underscores
+replace-spaces: true
+
+# Disconnect message when a player with the same username as a Floodgate player tries to join
+disconnect:
+  invalid-username: "&cA player with this username is already online (Bedrock account linked)."
+  not-authenticated: "&cYou need to authenticate with Microsoft to join."
+
+# Player linking / auto-link settings
+player-link:
+  # Enable automatic linking of Java and Bedrock accounts with the same username
+  enabled: true
+  # Require players to manually link via /linkaccount if false
+  require-manual-link: false
+  # Allow players to unlink their accounts
+  allow-unlink: true
+
+# Metrics
+metrics:
+  enabled: true
+
+# Debug
+debug: false
