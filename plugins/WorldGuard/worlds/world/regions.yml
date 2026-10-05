@@ -1,0 +1,71 @@
+#
+# WorldGuard regions file for world (Lobby Hub)
+# Generated for Professional Hybrid Server
+#
+
+regions:
+  __global__:
+    min: {x: -10000, y: -64, z: -10000}
+    max: {x: 10000, y: 320, z: 10000}
+    members: {}
+    flags:
+      passthrough: deny
+      build: deny
+      block-break: deny
+      block-place: deny
+      pvp: deny
+      damage-animals: deny
+      mob-spawning: deny
+      mob-damage: deny
+      creeper-explosion: deny
+      tnt: deny
+      other-explosion: deny
+      fire-spread: deny
+      lava-fire: deny
+      lightning: deny
+      chest-access: deny
+      water-flow: deny
+      lava-flow: deny
+      use: allow
+      interact: allow
+      item-drop: deny
+      item-pickup: deny
+      fall-damage: deny
+      enderpearl: deny
+      chorus-fruit-teleport: deny
+      vehicle-place: deny
+      vehicle-destroy: deny
+      sleep: deny
+      respawn-anchors: deny
+      wither-damage: deny
+      ghast-fireball: deny
+    owners: {}
+    type: cuboid
+    priority: 0
+    flags-version: 2
+
+  spawn_hub:
+    min: {x: -50, y: 50, z: -50}
+    max: {x: 50, y: 150, z: 50}
+    members: {}
+    flags:
+      passthrough: deny
+      build: deny
+      block-break: deny
+      block-place: deny
+      pvp: deny
+      damage-animals: deny
+      mob-spawning: deny
+      mob-damage: deny
+      fall-damage: deny
+      item-drop: deny
+      item-pickup: deny
+      invincible: allow
+      entry: allow
+      exit: allow
+      greeting: '&a&lWelcome to the Professional Hybrid Hub!'
+      farewell: '&7Leaving the Hub...'
+    owners: {}
+    type: cuboid
+    priority: 10
+    flags-version: 2
