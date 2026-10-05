@@ -1,0 +1,252 @@
+# Multiverse-Core Worlds Configuration
+# Generated for Professional Hybrid Server (Arclight 1.21.1)
+# Worlds are imported/created on first run or via /mv create
+
+worlds:
+  world:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Lobby Hub
+    color: GOLD
+    style: NORMAL
+    pvp: 'false'
+    scale: 1.0
+    respawnWorld: ''
+    allowWeather: 'false'
+    difficulty: PEACEFUL
+    animals:
+      spawn: 'false'
+      exceptions: []
+    monsters:
+      spawn: 'false'
+      exceptions: []
+    environment: NORMAL
+    seed: ''
+    generator: ''
+    playerLimit: -1
+    allowFlight: 'true'
+    hunger: 'false'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 100.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    entryFee:
+      amount: 0.0
+    hunger: false
+    # Lobby: no PvP, no break, no hunger, flight allowed
+
+  SURVIVAL:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Survival
+    color: GREEN
+    style: NORMAL
+    pvp: 'true'
+    scale: 1.0
+    respawnWorld: world
+    allowWeather: 'true'
+    difficulty: HARD
+    animals:
+      spawn: 'true'
+      exceptions: []
+    monsters:
+      spawn: 'true'
+      exceptions: []
+    environment: NORMAL
+    seed: ''
+    generator: ''
+    playerLimit: -1
+    allowFlight: 'false'
+    hunger: 'true'
+    autoHeal: 'false'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 64.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    entryFee:
+      amount: 0.0
+
+  SURVIVAL_nether:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Survival Nether
+    color: RED
+    style: NORMAL
+    pvp: 'true'
+    scale: 8.0
+    respawnWorld: SURVIVAL
+    allowWeather: 'true'
+    difficulty: HARD
+    animals:
+      spawn: 'true'
+      exceptions: []
+    monsters:
+      spawn: 'true'
+      exceptions: []
+    environment: NETHER
+    seed: ''
+    generator: ''
+    playerLimit: -1
+    allowFlight: 'false'
+    hunger: 'true'
+    autoHeal: 'false'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 64.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    entryFee:
+      amount: 0.0
+
+  SURVIVAL_the_end:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Survival End
+    color: DARK_PURPLE
+    style: NORMAL
+    pvp: 'true'
+    scale: 1.0
+    respawnWorld: SURVIVAL
+    allowWeather: 'true'
+    difficulty: HARD
+    animals:
+      spawn: 'true'
+      exceptions: []
+    monsters:
+      spawn: 'true'
+      exceptions: []
+    environment: THE_END
+    seed: ''
+    generator: ''
+    playerLimit: -1
+    allowFlight: 'false'
+    hunger: 'true'
+    autoHeal: 'false'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 64.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    entryFee:
+      amount: 0.0
+
+  CREATIVE:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Creative Plots
+    color: AQUA
+    style: NORMAL
+    pvp: 'false'
+    scale: 1.0
+    respawnWorld: world
+    allowWeather: 'false'
+    difficulty: PEACEFUL
+    animals:
+      spawn: 'false'
+      exceptions: []
+    monsters:
+      spawn: 'false'
+      exceptions: []
+    environment: NORMAL
+    seed: ''
+    generator: ''
+    playerLimit: -1
+    allowFlight: 'true'
+    hunger: 'false'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: CREATIVE
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 100.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    entryFee:
+      amount: 0.0
+
+  PVP_ARENA:
+    ==: MVWorld
+    hidden: 'false'
+    alias: PvP Arena
+    color: RED
+    style: NORMAL
+    pvp: 'true'
+    scale: 1.0
+    respawnWorld: world
+    allowWeather: 'false'
+    difficulty: HARD
+    animals:
+      spawn: 'false'
+      exceptions: []
+    monsters:
+      spawn: 'false'
+      exceptions: []
+    environment: NORMAL
+    seed: ''
+    generator: ''
+    playerLimit: -1
+    allowFlight: 'false'
+    hunger: 'true'
+    autoHeal: 'false'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 64.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'false'
+    worldBlacklist: []
+    entryFee:
+      amount: 0.0
