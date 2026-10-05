@@ -1,0 +1,51 @@
+# Geyser-Spigot Configuration
+# Professional Hybrid Server - Bedrock Support
+# Port 19132 for Bedrock players
+
+bedrock:
+  # The IP address that will listen for connections
+  # Generally, you should only uncomment and change this if you want to limit what IPs can connect to your server.
+  #address: 0.0.0.0
+  # The port that will listen for connections
+  port: 19132
+  # Some hosting providers will block the Bedrock port by default. Use this option to force Geyser to use a different port.
+  #clone-remote-port: false
+  # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
+  # If either of these are empty, the respective string will default to "Geyser"
+  motd1: "Professional Hybrid Server"
+  motd2: "Java + Bedrock | Mods + Plugins"
+  # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is displayed in the in-game menu screen.
+  server-name: "Hybrid Network"
+  # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage but less bandwidth usage.
+  # Set to -1 to disable. 0 is the default, 9 is the maximum.
+  compression-level: 6
+  # Whether to enable proxy protocol support for Bedrock clients
+  #enable-proxy-protocol: false
+  # A list of allowed proxy IPs. Only effective when "enable-proxy-protocol" is enabled.
+  #proxy-protocol-whitelisted-ips: []
+
+remote:
+  # The IP address of the remote (Java Edition) server
+  # If it is "auto", for standalone version the remote address will be set to 127.0.0.1,
+  # for this plugin version, Geyser will attempt to find the best address to connect to.
+  address: auto
+  # The port of the remote (Java Edition) server
+  # For plugin version, if it is "auto" this will use the local port of the Java server.
+  port: auto
+  # Authentication type. Can be offline, online, or floodgate (for use with Floodgate)
+  auth-type: floodgate
+  # Allow for password-based authentication methods through Geyser. Only works on online mode servers.
+  #allow-password-authentication: true
+  # Whether to use the Floodgate player data for authentication
+  use-proxy-protocol: false
+  # Forward the hostname that the Bedrock client used to connect over to the Java server
+  # This is designed for use with proxies
+  #forward-hostname: false
+
+# Floodgate compatibility
+floodgate-key-file: key.pem
+
+# Advanced options
+#debug-mode: false
+#disable-bedrock-scaffolding: false
+#config-version: 4
