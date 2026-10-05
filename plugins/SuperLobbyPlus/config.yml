@@ -1,0 +1,85 @@
+#=========================================#
+# SUPERLOBBYPLUS - Professional Hybrid Server
+# Optimized for Lobby (world) protection
+#=========================================#
+
+# Messages
+teleporthub-message: "&8[&e&lHUB&8] &aYou have been teleported to the Hub!"
+sethub-message: "&8[&e&lHUB&8] &aHub location has been set!"
+teleportlobby-message: "&8[&e&lLOBBY&8] &aYou have been teleported to the Lobby!"
+setlobby-message: "&8[&e&lLOBBY&8] &aLobby location has been set!"
+nopermission-message: "&c&lError: &7You do not have permission."
+
+Join-Player: "&8[&a+&8] &b%player% &7joined the Hybrid Network!"
+Quit-Player: "&8[&c-&8] &b%player% &7left the Hybrid Network!"
+
+# Join / Spawn settings
+join:
+  enabled: true
+  teleport-to-spawn: true
+  clear-inventory: false
+  clear-effects: true
+  heal: true
+  feed: true
+  gamemode: SURVIVAL
+  sound: ENTITY_PLAYER_LEVELUP
+  sound-volume: 1.0
+  sound-pitch: 1.0
+
+# Title / Subtitle on join
+title:
+  enabled: true
+  title: "&c&lPROFESSIONAL HYBRID"
+  subtitle: "&aMods + Plugins | Welcome %player%!"
+  fade-in: 10
+  stay: 60
+  fade-out: 20
+
+# Actionbar
+actionbar:
+  enabled: true
+  message: "&eUse the NPCs to travel | &b/hub &7to return"
+  interval: 100
+
+# MOTD (in-game)
+motd:
+  enabled: true
+  lines:
+    - "&c&lPROFESSIONAL HYBRID SERVER"
+    - "&7Mods + Plugins | Java + Bedrock"
+    - "&aWelcome %player%!"
+
+# Protection rules for Lobby world
+protection:
+  world: world
+  disable-damage: true
+  disable-hunger: true
+  disable-weather: true
+  disable-block-break: true
+  disable-block-place: true
+  disable-item-drop: true
+  disable-item-pickup: false
+  disable-pvp: true
+  disable-mob-spawn: true
+  disable-fire: true
+  disable-explosions: true
+  disable-fall-damage: true
+  disable-void-damage: true
+
+# Locations (set in-game with /sethub /setlobby)
+locations:
+  hub: {}
+  lobby: {}
+
+# Scoreboard (basic)
+scoreboard:
+  enabled: true
+  title: "&c&lHYBRID SERVER"
+  lines:
+    - ""
+    - "&7Player: &f%player%"
+    - "&7Online: &a%online%"
+    - ""
+    - "&e/hub &7- Return"
+    - "&eNPCs &7- Travel"
+    - ""
