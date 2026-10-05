@@ -1,0 +1,9 @@
+# This file keeps the mods/ directory in git.
+# Drop your Forge / NeoForge mods here (.jar files).
+# Recommended performance & utility mods (check version compatibility):
+# - FerriteCore
+# - ModernFix
+# - Entity Culling
+# - Sodium / Rubidium (if client-side, server may not need)
+# - Starlight or Phosphor (lighting optimization)
+# Always match the exact Minecraft + Forge/NeoForge version of your Arclight/Mohist build.
