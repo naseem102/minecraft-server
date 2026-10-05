@@ -1,0 +1,7 @@
+# Farmland Protection / NoFarmlandTrample
+# Prevents farmland from being trampled when players/mobs jump on it.
+# Recommended plugins:
+# - Farmland Protection: https://modrinth.com/plugin/farmland-protection
+# - NoFarmlandTrample: https://www.spigotmc.org/resources/nofarmlandtrample-prevent-crop-trampling-1-8-1-21.135462/
+# - NoCropTrample
+# Place the .jar in this folder.
