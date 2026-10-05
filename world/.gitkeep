@@ -1,0 +1,4 @@
+# Main Lobby / Hub World (world)
+# This folder will be populated by the server on first run.
+# Multiverse + WorldGuard + SuperLobbyPlus protect this world.
+# Do NOT commit large world data files.
