@@ -1,0 +1,9 @@
+# Xaero's Minimap
+# This is mainly a CLIENT-SIDE mod, but can also be installed on the server (NeoForge) for better multi-world waypoint support.
+# 
+# Download for 1.21.1 NeoForge/Forge:
+# https://modrinth.com/mod/xaeros-minimap
+# or CurseForge: https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap
+#
+# Place the NeoForge/Forge 1.21.1 version jar here (mods folder).
+# Players also need to install it on their client to see the minimap.
