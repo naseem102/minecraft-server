@@ -1,0 +1,85 @@
+{
+  "npcs": [
+    {
+      "id": "1",
+      "name": "&a&lSURVIVAL",
+      "world": "world",
+      "location": {
+        "x": 5.5,
+        "y": 100.0,
+        "z": 0.5,
+        "yaw": 90.0,
+        "pitch": 0.0
+      },
+      "type": "player",
+      "skin": "Steve",
+      "hologram": [
+        "&a&lSURVIVAL",
+        "&7Click to teleport"
+      ],
+      "actions": [
+        {
+          "type": "command",
+          "command": "mv tp %player% SURVIVAL",
+          "permission": ""
+        }
+      ],
+      "look": "CLOSEST_PLAYER",
+      "glow": false
+    },
+    {
+      "id": "2",
+      "name": "&b&lCREATIVE",
+      "world": "world",
+      "location": {
+        "x": 0.5,
+        "y": 100.0,
+        "z": 5.5,
+        "yaw": 180.0,
+        "pitch": 0.0
+      },
+      "type": "player",
+      "skin": "Alex",
+      "hologram": [
+        "&b&lCREATIVE",
+        "&7Click to teleport"
+      ],
+      "actions": [
+        {
+          "type": "command",
+          "command": "mv tp %player% CREATIVE",
+          "permission": ""
+        }
+      ],
+      "look": "CLOSEST_PLAYER",
+      "glow": false
+    },
+    {
+      "id": "3",
+      "name": "&c&lPVP ARENA",
+      "world": "world",
+      "location": {
+        "x": -4.5,
+        "y": 100.0,
+        "z": 0.5,
+        "yaw": -90.0,
+        "pitch": 0.0
+      },
+      "type": "player",
+      "skin": "Herobrine",
+      "hologram": [
+        "&c&lPVP ARENA",
+        "&7Click to teleport"
+      ],
+      "actions": [
+        {
+          "type": "command",
+          "command": "mv tp %player% PVP_ARENA",
+          "permission": ""
+        }
+      ],
+      "look": "CLOSEST_PLAYER",
+      "glow": false
+    }
+  ]
+}
