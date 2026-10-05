@@ -1,0 +1,57 @@
+# Minecraft Server - Ignore runtime & large files
+
+# World data (very large)
+world/
+world_nether/
+world_the_end/
+*
+!world/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Crash reports
+crash-reports/
+
+# Player data & cache
+usercache.json
+usernamecache.json
+
+# Libraries & downloaded deps (regenerated on first run)
+libraries/
+versions/
+
+# Temporary / cache
+.cache/
+tmp/
+*.tmp
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Server jar (user must download themselves - too large + version specific)
+# server.jar
+
+# ngrok config if any
+ngrok.yml
+
+# Local overrides
+local.properties
+*.local
+
+# Keep these important files
+!eula.txt
+!server.properties
+!ops.json
+!whitelist.json
+!banned-players.json
+!banned-ips.json
+!start-server.bat
+!start-public.bat
+!README.md
+!.gitignore
+!plugins/.gitkeep
+!mods/.gitkeep
