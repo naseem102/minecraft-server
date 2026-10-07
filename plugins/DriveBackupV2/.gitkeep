@@ -1,0 +1,11 @@
+# DriveBackupV2
+# Automatic server backups to Google Drive / OneDrive / Dropbox / FTP / S3
+# Supports Minecraft 1.8 - 1.21.x
+#
+# Download:
+# - Modrinth / CurseForge / SpigotMC
+# - GitHub: https://github.com/MaxMaeder/DriveBackupV2
+# - Spigot: https://www.spigotmc.org/resources/drivebackupv2.79519/
+#
+# Place the .jar file in this folder.
+# After first start use: /drivebackup linkaccount googledrive (or onedrive/dropbox)
