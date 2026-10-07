@@ -1,0 +1,11 @@
+# Chunky
+# Pre-generate chunks to reduce lag when players explore.
+# Highly recommended for survival servers.
+#
+# Download:
+# - Modrinth: https://modrinth.com/plugin/chunky
+# - Hangar / Spigot also available
+#
+# Supports 1.21.x (Paper/Spigot compatible)
+# Place the .jar file in this folder.
+# Usage example: /chunky start world 1000
